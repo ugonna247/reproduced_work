@@ -1,0 +1,308 @@
+body {
+    font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 3px;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    padding-top: 7px;
+    font-weight: 400;
+}
+
+.firstsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 95px;
+}
+
+#headerlogo {
+    width: 40px;
+    aspect-ratio: auto 40 / 40;
+    height: 40px; 
+}
+
+#headerp {
+    color: #00b39b;
+    font-size: 34px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0px;
+    padding-top: 20px;
+}
+
+.twoparagraphs {
+    color: #747474;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    width: 68%;
+    justify-content: space-between;
+}
+
+.p1 {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.p2 {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+p {
+    display: block;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+div {
+    display: block;
+}
+
+.tosection {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 20px 0;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 1.5;
+    margin: 40px auto 40px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif; 
+    max-width: 500px 500px 500px;
+    padding: 20px 20px 0;
+    position: relative;
+}
+
+.to1 {
+    background-color: #00ccb1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 0;
+    justify-content: space-between;
+    height: 320px;
+}
+
+.tosection img {
+    width: 25px;
+    height: auto;
+}
+
+.to1 #to1title, .to2 #to2title, .to3 #to3title {
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    margin: 5px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.to1 select {
+    background-color: #00ccb1;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-size: 19px;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    min-height: 10px;
+    padding: 0px 10px 10px;
+    white-space: nowrap;
+}
+
+.to2 {
+    background-color: #3d83df;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 0;
+    justify-content: space-between;
+    height: 320px;
+}
+
+.to2 select {
+    background-color: #3d83df;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-size: 19px;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+.to3 {
+    background-color: #1b2734;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 0;
+    justify-content: space-between;
+    height: 320px;
+}
+
+.to3 select {
+    background-color: #1b2734;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-size: 19px;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+.section3 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 div {
+    width: 52%;
+    display: flex;
+}
+
+#section3title {
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    color: #00b39b;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+
+p {
+    margin: 0 0 10px;
+    line-height: 35px;
+}
+
+#section3logos {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+#section3logos img {
+    width: 80px;
+    object-fit: contain;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    background-color: #d0faf4;
+    padding-right: 200px;
+    padding-bottom: 0px;
+}
+
+.section4header {
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 60px;
+    padding-left: 250px;
+}
+
+.section4header h2 {
+    color: #00b39b;
+    font-weight: lighter;
+    letter-spacing:1px;
+    padding-left: 50px;
+}
+
+.section4header p {
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #747474;
+    padding-bottom: 40px;
+    line-height: 20px;
+}
+
+.section4fold {
+    display: flex;
+    margin-right: 50px;
+    height: 200%;
+    justify-content: space-around;
+    margin-left: 200px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.section4fold div {
+    height: 500px;
+    width: 270px;
+}
+
+.second1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-right: 0px;
+}
+
+#leader, #patients, #appointments, #doctors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+    margin: 0 0 20px 0;
+}
+
+#leader img, #patients img, #appointments img, #doctors img {
+    width: 20px;
+    height: auto;
+}
+
+.section4fold h3 {
+    font-size: 25px;
+    color: #00b39b;
+    font-family: 'Ubuntu', sans-serif; 
+    font-weight: 200;
+    letter-spacing: 0px;
+}
+
+.section4fold p {
+    font-size: 0.8125em;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    color: #747474;
+    line-height: 15px;
+}
+
+.second2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
